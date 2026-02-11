@@ -121,13 +121,57 @@ const DISCOGRAPHY_MASTER_CONTENT = `# EASTWARD PROTOCOL — Canonical 10-Album D
 
 Each album represents a phase of transformation in a sovereign saga.
 
-## ALBUM I — ORIGIN
+## I. ORIGIN
 **Subtitle:** Silence Before Sovereignty
-**Narrative:** The years of silence, observation, inner fracture, and hidden strength.
-**Production Envelope:** Minimal trap / R&B, sparse piano, muted synths, intimate vocals.
 **Function:** Establishes depth, seriousness, and origin story.
 
-**Tracklist**
+## II. OBSERVATION
+**Subtitle:** Seeing the Game
+**Function:** Builds strategic credibility and perception power.
+
+## III. IDENTITY COMPILER
+**Subtitle:** Rebuilding the Self
+**Function:** Empowerment and self-definition era.
+
+## IV. EXECUTION
+**Subtitle:** Action Over Theory
+**Function:** Performance energy + action identity.
+
+## V. AUTONOMY
+**Subtitle:** Own the Name
+**Function:** Status, business, and independence branding.
+
+## VI. LANGUAGE & ROOTS
+**Subtitle:** Blood Memory
+**Function:** Cultural differentiation + diaspora ownership.
+
+## VII. PUBLIC FIGURE
+**Subtitle:** Under the Lens
+**Function:** Mainstream crossover + resilience narrative.
+
+## VIII. SYSTEM BUILDER
+**Subtitle:** Architecture of Power
+**Function:** Positions you as architect, not entertainer.
+
+## IX. TRANSMISSION
+**Subtitle:** What I Leave
+**Function:** Emotional depth + legacy positioning.
+
+## X. EASTWARD
+**Subtitle:** Sovereign State of Mind
+**Function:** Legacy summit + timeless close.
+`;
+
+const ALBUM_01_CONTENT = `# ALBUM I — ORIGIN
+> Subtitle: Silence Before Sovereignty
+
+## Narrative
+The years of silence, observation, inner fracture, and hidden strength.
+
+## Production Envelope
+Minimal trap / R&B, sparse piano, muted synths, intimate vocals.
+
+## Canonical Tracklist
 1.  Prologue (Spoken — FR/Creole layered)
 2.  Je me tais mais je vois 🇫🇷 (Single)
 3.  Silent Architecture 🇬🇧 (Single)
@@ -140,16 +184,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Respire encore
 11. Je me reconstruis
 12. Outro — East Is a Direction
+`;
 
----
+const ALBUM_02_CONTENT = `# ALBUM II — OBSERVATION
+> Subtitle: Seeing the Game
 
-## ALBUM II — OBSERVATION
-**Subtitle:** Seeing the Game
-**Narrative:** Recognition of manipulation, gaslighting, and system chaos.
-**Production Envelope:** Dark trap, drill-adjacent, cinematic tension, minor keys.
-**Function:** Builds strategic credibility and perception power.
+## Narrative
+Recognition of manipulation, gaslighting, and system chaos.
 
-**Tracklist**
+## Production Envelope
+Dark trap, drill-adjacent, cinematic tension, minor keys.
+
+## Canonical Tracklist
 1.  Ouverture — Les masques
 2.  Ils jouent au roi 🇫🇷 (Single)
 3.  You Freeze the Truth 🇬🇧 (Single)
@@ -162,16 +208,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Regards croisés
 11. Je note tout
 12. Clair mais calme
+`;
 
----
+const ALBUM_03_CONTENT = `# ALBUM III — IDENTITY COMPILER
+> Subtitle: Rebuilding the Self
 
-## ALBUM III — IDENTITY COMPILER
-**Subtitle:** Rebuilding the Self
-**Narrative:** Reprogramming identity. Selecting values. Rejecting false code.
-**Production Envelope:** Anthemic trap-pop, big hooks, victory chords.
-**Function:** Empowerment and self-definition era.
+## Narrative
+Reprogramming identity. Selecting values. Rejecting false code.
 
-**Tracklist**
+## Production Envelope
+Anthemic trap-pop, big hooks, victory chords.
+
+## Canonical Tracklist
 1.  Boot Sequence
 2.  Je me recompilé 🇫🇷 (Single)
 3.  Recompile Me 🇬🇧 (Single)
@@ -184,16 +232,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Ligne de code
 11. Reset & Rise
 12. Version 2.0
+`;
 
----
+const ALBUM_04_CONTENT = `# ALBUM IV — EXECUTION
+> Subtitle: Action Over Theory
 
-## ALBUM IV — EXECUTION
-**Subtitle:** Action Over Theory
-**Narrative:** Movement replaces talk. Results replace promises.
-**Production Envelope:** High-energy trap, Afro-drill, chant hooks.
-**Function:** Performance energy + action identity.
+## Narrative
+Movement replaces talk. Results replace promises.
 
-**Tracklist**
+## Production Envelope
+High-energy trap, Afro-drill, chant hooks.
+
+## Canonical Tracklist
 1.  Green Light
 2.  Je passe à l’acte 🇫🇷 (Single)
 3.  Execution Mode 🇬🇧 (Single)
@@ -206,16 +256,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. No Excuses
 11. On My Way
 12. Results Speak
+`;
 
----
+const ALBUM_05_CONTENT = `# ALBUM V — AUTONOMY
+> Subtitle: Own the Name
 
-## ALBUM V — AUTONOMY
-**Subtitle:** Own the Name
-**Narrative:** Creative + financial sovereignty. Ownership and control.
-**Production Envelope:** Luxury trap, polished, confident, glossy.
-**Function:** Status, business, and independence branding.
+## Narrative
+Creative + financial sovereignty. Ownership and control.
 
-**Tracklist**
+## Production Envelope
+Luxury trap, polished, confident, glossy.
+
+## Canonical Tracklist
 1.  No Middleman
 2.  Sans patron 🇫🇷 (Single)
 3.  Own My Name 🇬🇧 (Single)
@@ -228,16 +280,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Private Equity
 11. Built My Lane
 12. I Control It
+`;
 
----
+const ALBUM_06_CONTENT = `# ALBUM VI — LANGUAGE & ROOTS
+> Subtitle: Blood Memory
 
-## ALBUM VI — LANGUAGE & ROOTS
-**Subtitle:** Blood Memory
-**Narrative:** Creole power, cultural memory, forbidden tongues.
-**Production Envelope:** Afro-Caribbean, Zouk, Kompa, Afrobeat, live percussion.
-**Function:** Cultural differentiation + diaspora ownership.
+## Narrative
+Creole power, cultural memory, forbidden tongues.
 
-**Tracklist**
+## Production Envelope
+Afro-Caribbean, Zouk, Kompa, Afrobeat, live percussion.
+
+## Canonical Tracklist
 1.  Lang sé lavi 🇨🇷
 2.  Langue interdite 🇫🇷 (Single)
 3.  Mother Tongue 🇬🇧 (Single)
@@ -250,16 +304,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Roots in My Chest
 11. Mémoire vivante
 12. Tambour & Silence
+`;
 
----
+const ALBUM_07_CONTENT = `# ALBUM VII — PUBLIC FIGURE
+> Subtitle: Under the Lens
 
-## ALBUM VII — PUBLIC FIGURE
-**Subtitle:** Under the Lens
-**Narrative:** Visibility, judgment, pressure, being watched.
-**Production Envelope:** Pop-rap crossover, stadium hooks, wide mixes.
-**Function:** Mainstream crossover + resilience narrative.
+## Narrative
+Visibility, judgment, pressure, being watched.
 
-**Tracklist**
+## Production Envelope
+Pop-rap crossover, stadium hooks, wide mixes.
+
+## Canonical Tracklist
 1.  Camera On
 2.  Regardez-moi 🇫🇷 (Single)
 3.  Under the Spotlight 🇬🇧 (Single)
@@ -272,16 +328,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Smile for the Camera
 11. Pressure Proof
 12. Still Me
+`;
 
----
+const ALBUM_08_CONTENT = `# ALBUM VIII — SYSTEM BUILDER
+> Subtitle: Architecture of Power
 
-## ALBUM VIII — SYSTEM BUILDER
-**Subtitle:** Architecture of Power
-**Narrative:** Building systems, platforms, futures.
-**Production Envelope:** Industrial hip-hop, cinematic, tech textures.
-**Function:** Positions you as architect, not entertainer.
+## Narrative
+Building systems, platforms, futures.
 
-**Tracklist**
+## Production Envelope
+Industrial hip-hop, cinematic, tech textures.
+
+## Canonical Tracklist
 1.  Blueprint Intro
 2.  Architecture 🇫🇷 (Single)
 3.  Build the Spine 🇬🇧 (Single)
@@ -294,16 +352,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. No Shortcuts
 11. Future Proof
 12. Structure Wins
+`;
 
----
+const ALBUM_09_CONTENT = `# ALBUM IX — TRANSMISSION
+> Subtitle: What I Leave
 
-## ALBUM IX — TRANSMISSION
-**Subtitle:** What I Leave
-**Narrative:** Legacy, fatherhood, teaching, mentorship.
-**Production Envelope:** Soulful hip-hop, gospel chords, live instruments.
-**Function:** Emotional depth + legacy positioning.
+## Narrative
+Legacy, fatherhood, teaching, mentorship.
 
-**Tracklist**
+## Production Envelope
+Soulful hip-hop, gospel chords, live instruments.
+
+## Canonical Tracklist
 1.  Letter to My Kids
 2.  Pour mes enfants 🇫🇷 (Single)
 3.  Leave a Blueprint 🇬🇧 (Single)
@@ -316,16 +376,18 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Long Memory
 11. Carry My Name
 12. I Leave Light
+`;
 
----
+const ALBUM_10_CONTENT = `# ALBUM X — EASTWARD
+> Subtitle: Sovereign State of Mind
 
-## ALBUM X — EASTWARD
-**Subtitle:** Sovereign State of Mind
-**Narrative:** Calm mastery. Directional sovereignty. Final form.
-**Production Envelope:** Minimal luxury, ambient, timeless.
-**Function:** Legacy summit + timeless close.
+## Narrative
+Calm mastery. Directional sovereignty. Final form.
 
-**Tracklist**
+## Production Envelope
+Minimal luxury, ambient, timeless.
+
+## Canonical Tracklist
 1.  Stillness
 2.  Je ne plie plus 🇫🇷 (Single)
 3.  Eastward 🇬🇧 (Single)
@@ -338,54 +400,31 @@ Each album represents a phase of transformation in a sovereign saga.
 10. Quiet Victory
 11. Mastery
 12. Direction (Finale)
-
-**Status:** Canonical Concept Architecture
-**Concept:** Immutable
 `;
 
 const CHANGELOG_CONTENT = `# EASTWARD PROTOCOL — CHANGELOG
 
+## [1.1.0] - 2024-05-23
+### Added
+- Expanded \`01_ALBUM_EASTWARD_PROTOCOL\` to include dedicated sub-directories for Albums I through X.
+- Canonical tracklists migrated to individual \`ALBUM_MANIFEST.md\` files within each album directory.
+
 ## [1.0.0] - 2024-05-23
 ### Frozen
 - **Architecture:** Initial release of the Canonical Master Archive structure.
-- **Identity:** Established "The Structural Rebel" archetype.
-- **Discography:** Locked the 10-Album Progressive Arc (Concept & Titles).
-- **Governance:** Implemented Immutability Doctrine and Agent Alignment Contract.
-- **System:** Defined the folder structure 00-07.
-
-### Added
-- \`00_CANONICAL_CORE/MASTER_MANIFESTO.md\`
-- \`00_CANONICAL_CORE/GOVERNANCE_PROTOCOL.md\`
-- \`00_CANONICAL_CORE/AGENT_ALIGNMENT_CONTRACT.md\`
-- \`01_ALBUM_EASTWARD_PROTOCOL/DISCOGRAPHY_MASTER.md\`
-- \`06_PUBLIC_KNOWLEDGEBASE/README_PUBLIC.md\`
 `;
 
 const README_PUBLIC_CONTENT = `# EASTWARD PROTOCOL (Public Access)
 > Status: Live
-> Version: 1.0.0
+> Version: 1.1.0
 
 ## WELCOME
 You are viewing the public-facing knowledge base of the **Eastward Protocol**.
 
-## WHAT IS THIS?
-This is not just a music project. It is an open-source framework for Creator Autonomy.
-It documents the journey of an artist reclaiming their independence through:
-1.  **Structure** (Architecture before Emotion)
-2.  **Language** (Multilingual Identity: EN/FR/Creole)
-3.  **Systems** (Platform Independence)
-
-## FOR DEVELOPERS & CREATORS
-You are free to fork the **Autonomy Frameworks** (located in \`04_SYSTEMS_AND_AUTONOMY\`) to build your own independence infrastructure. The creative works (Music/Lyrics) remain the intellectual property of the Eastward Protocol.
-
 ## NAVIGATION
-- **01_ALBUM:** The artistic output.
+- **01_ALBUM:** Contains the 10-Album Cycle in specific sub-modules.
 - **04_SYSTEMS:** The tools used to build it.
 - **06_KB:** Essays and public thoughts.
-
-## MIRRORS
-- Main Repo: [Gitee Link Placeholder]
-- Archive: [Internet Archive Link Placeholder]
 
 *East is a direction.*
 `;
@@ -413,9 +452,87 @@ export const REPOSITORY_DATA: FileSystemNode = {
       name: '01_ALBUM_EASTWARD_PROTOCOL',
       type: 'directory',
       children: [
-        { id: '01-1', name: 'DISCOGRAPHY_MASTER.md', type: 'file', content: DISCOGRAPHY_MASTER_CONTENT },
-        { id: '01-2', name: 'ALBUM_CONCEPT.md', type: 'file', content: '# ALBUM CONCEPT\n\n(See DISCOGRAPHY_MASTER.md for full canonical architecture)' },
-        { id: '01-3', name: 'TRACKLIST.md', type: 'file', content: '# TRACKLIST\n\n(See DISCOGRAPHY_MASTER.md for full canonical tracklists)' },
+        { id: '01-0', name: 'DISCOGRAPHY_MASTER.md', type: 'file', content: DISCOGRAPHY_MASTER_CONTENT },
+        {
+          id: '01-I',
+          name: 'ALBUM_01_ORIGIN',
+          type: 'directory',
+          children: [
+            { id: '01-I-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_01_CONTENT }
+          ]
+        },
+        {
+          id: '01-II',
+          name: 'ALBUM_02_OBSERVATION',
+          type: 'directory',
+          children: [
+            { id: '01-II-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_02_CONTENT }
+          ]
+        },
+        {
+          id: '01-III',
+          name: 'ALBUM_03_IDENTITY_COMPILER',
+          type: 'directory',
+          children: [
+            { id: '01-III-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_03_CONTENT }
+          ]
+        },
+        {
+          id: '01-IV',
+          name: 'ALBUM_04_EXECUTION',
+          type: 'directory',
+          children: [
+            { id: '01-IV-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_04_CONTENT }
+          ]
+        },
+        {
+          id: '01-V',
+          name: 'ALBUM_05_AUTONOMY',
+          type: 'directory',
+          children: [
+            { id: '01-V-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_05_CONTENT }
+          ]
+        },
+        {
+          id: '01-VI',
+          name: 'ALBUM_06_LANGUAGE_AND_ROOTS',
+          type: 'directory',
+          children: [
+            { id: '01-VI-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_06_CONTENT }
+          ]
+        },
+        {
+          id: '01-VII',
+          name: 'ALBUM_07_PUBLIC_FIGURE',
+          type: 'directory',
+          children: [
+            { id: '01-VII-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_07_CONTENT }
+          ]
+        },
+        {
+          id: '01-VIII',
+          name: 'ALBUM_08_SYSTEM_BUILDER',
+          type: 'directory',
+          children: [
+            { id: '01-VIII-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_08_CONTENT }
+          ]
+        },
+        {
+          id: '01-IX',
+          name: 'ALBUM_09_TRANSMISSION',
+          type: 'directory',
+          children: [
+            { id: '01-IX-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_09_CONTENT }
+          ]
+        },
+        {
+          id: '01-X',
+          name: 'ALBUM_10_EASTWARD',
+          type: 'directory',
+          children: [
+            { id: '01-X-1', name: 'ALBUM_MANIFEST.md', type: 'file', content: ALBUM_10_CONTENT }
+          ]
+        }
       ]
     },
     {

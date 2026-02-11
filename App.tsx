@@ -11,16 +11,18 @@ const FileIcon = ({ name }: { name: string }) => {
   return <FileText className="w-4 h-4 text-eastward-400" />;
 };
 
-const TreeNode = ({ 
+interface TreeNodeProps {
+  node: FileSystemNode;
+  level?: number;
+  onSelect: (node: FileSystemNode) => void;
+  selectedId: string | null;
+}
+
+const TreeNode: React.FC<TreeNodeProps> = ({ 
   node, 
   level = 0, 
   onSelect, 
   selectedId 
-}: { 
-  node: FileSystemNode; 
-  level?: number; 
-  onSelect: (node: FileSystemNode) => void;
-  selectedId: string | null;
 }) => {
   const [isOpen, setIsOpen] = useState(true); // Default open for visibility
   const isSelected = selectedId === node.id;
